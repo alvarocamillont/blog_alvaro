@@ -1,4 +1,4 @@
-title: Hello Website
+title: Bem vindos!
 ---
 pub_date: 2018-06-29
 ---
@@ -6,4 +6,11 @@ author: Alvaro Camillo Neto
 ---
 body:
 
-This is an example blog post.  Not much here but that's not the point :)
+Olá pessoal! Esse é o post de abertura do meu blog!
+Meu nome é Alvaro e sou desenvolvedor com 12 anos de experiência.
+Esse post não é minha apresentação para meu currículo (para isso temos links na página de sobre :) ) e sim a apresentação do blog.
+Pois nesses 12 anos de experiência só agora tomei vergonha na cara para compartilhar o que eu sei através de estudo, trabalhando e principalmente apanhando dessa máquina que segundo meu sogro é o "Mal do mundo".
+Irei (olha só estou AFIRMANDO) postar toda semana artigos técnicos, tutoriais e resenhas de livros e etc para ajudar amigos desenvolvedores que estão nessa luta comigo.
+Pretendo escrever sobre Python, JavaScript, SQL, ADVPL e até de repente contabilidade ( caso esteja curioso para saber o porquê basta olhar na seção sobre)
+Espero que gostem :)
+Até!

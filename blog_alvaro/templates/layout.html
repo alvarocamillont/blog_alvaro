@@ -1,28 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Home{% endblock %}</title>
-
+<link rel="stylesheet" href="{{ get_pygments_stylesheet()|url }}">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" />
+<title>{% block title %}Alvaro Camillo Neto{% endblock %}</title>
+</head>
 <body>
   <header>
-    <h1>Alvaro Camillo Neto</h1>
+    <h1><a href="/">Alvaro Camillo Neto</a></h1>
     <nav>
       <ul class="nav navbar-nav">
-        <li{% if this._path=='/' %} class="active" {% endif %}>
-          <a href="{{ '/'|url }}">Home</a>
-          </li>
-          {% for href, title in [ ['/blog', 'Blog'], ['/projects', 'Projects'], ['/about', 'About'] ] %}
-          <li{% if this.is_child_of(href) %} class="active" {% endif %}>
-            <a href="{{ href|url }}">{{ title }}</a>
-            </li>
-            {% endfor %}
+        {% for href, title in [
+          ['/blog', 'Blog'],
+          ['/projects', 'Projects'],
+          ['/about', 'About']
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
       </ul>
     </nav>
   </header>
+  <hr>
   <div class="page">
     {% block body %}{% endblock %}
   </div>
+  <hr>
   <footer>
     &copy; Copyright 2018 by Alvaro Camillo Neto.
+    <a class="feed" rel="alternate" type="application/atom+xml" title="Atom feed for blog posts" href="/feed.xml">
+        <img src="{{ '/static/feed-icon.svg'|url }}" alt="Atom feed icon" />
+    </a>
   </footer>
 </body>
+</html>

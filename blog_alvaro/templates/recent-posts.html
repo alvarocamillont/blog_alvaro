@@ -1,0 +1,13 @@
+{% extends "layout.html" %} 
+{% block body %}
+<h2>{{ this.title }}</h2>
+<ul class="recent-posts">
+    {% for blog_post in site.query('/blog').order_by('-pub_date', 'title') %} {% if loop.index
+    <=this.max_posts %} <li>
+        <a href="{{ blog_post|url }}">
+            {{ blog_post.pub_date }} {{ blog_post.title }}
+        </a>
+        </li>
+        {% endif %} {% endfor %}
+</ul>
+{% endblock %}
