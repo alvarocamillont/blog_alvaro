@@ -288,3 +288,8 @@ img+em {
 .photo img:hover {
     outline: var(--color-bg-2) solid;
 }
+
+.blog-post-body{
+    text-align: justify;
+    text-justify: inter-word;
+}
