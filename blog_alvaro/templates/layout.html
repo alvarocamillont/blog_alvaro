@@ -16,8 +16,8 @@
       <ul class="nav navbar-nav">
         {% for href, title in [
           ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['/projects', 'Projetos'],
+          ['/about', 'Sobre']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
