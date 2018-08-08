@@ -1,4 +1,4 @@
-title: Lektor 101
+title: Como contrui o blog
 ---
 pub_date: 2018-07-12
 ---
@@ -8,6 +8,32 @@ twitter_handle:alcisko
 ---
 body:
 
-Como primeiro assunto no blog pensei em escrever sobre como eu estou fazendo o próprio blog.
+Como primeiro assunto no blog pensei em escrever sobre como eu estou fazendo o próprio blog (META post!).
+
+Para criar o meu blog eu tinha algumas alternativas:
+
+1. Utilizar uma plataforma como o Medium,Blogger etc.
+2. Construir meu próprio blog!
+
+Eu escolhi a segunda pois me pareceu mais divertida :) .
+
+Nesta opção, porém eu tinha *milhares* de alternativas.
+
+No começo pensei em montar uma aplicação Django para isso.Porém montar uma webapp para um blog é matar formiga com canhão. 
+Nada contra matar formigas com canhões ( um jeito bem efetivo de estudar), mas o problema é manter ($$$) o blog no ar em alguma nuvem.
+
+O jeito então é voltar ao básico onde eu precisaria de html/css e talvez um javascript para fazer alguma firula e assim subir num serviço como o github pages.
+
+Problema resolvido certo?
+
+Mais ou menos... Fazer as páginas na mão seria tranquilo no começo, mas pouco produtivo conforme o blog cresça. 
+
+Como resposta a esse problema eu descobri os geradores de sites estáticos!
+
+Esse será o assunto do próximo post :)
+
+Até
+
+
 
 
