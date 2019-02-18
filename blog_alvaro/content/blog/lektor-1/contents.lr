@@ -22,18 +22,13 @@ Nesta opção, porém eu tinha *milhares* de alternativas.
 No começo pensei em montar uma aplicação Django para isso.Porém montar uma webapp para um blog é matar formiga com canhão. 
 Nada contra matar formigas com canhões ( um jeito bem efetivo de estudar), mas o problema é manter ($$$) o blog no ar em alguma nuvem.
 
-O jeito então é voltar ao básico onde eu precisaria de html/css e talvez um javascript para fazer alguma firula e assim subir num serviço como o github pages.
+O jeito então é voltar ao básico onde eu precisaria de html/css e talvez algum javascript para fazer alguma firula.
 
 Problema resolvido certo?
 
 Mais ou menos... Fazer as páginas na mão seria tranquilo no começo, mas pouco produtivo conforme o blog cresça. 
 
 Como resposta a esse problema eu descobri os geradores de sites estáticos!
-
-Esse será o assunto do próximo post :)
-
-Até
-
 
 
 
